@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Coluna Esquerda: Contatos -->
+    <div class="col-md-6">
+      <h1 class="mb-4">Entre em Contato</h1>
+      <br><br>
+      <div class="contato-item instagram">
+        <i class="bi bi-instagram icon"></i>
+        <div>
+          <div class="titulo">Instagram</div>
+          <a href="https://www.instagram.com/paulinalmeidasilva/" target="_blank">@paulinalmeidasilva</a>
+        </div>
+      </div>
+
+      <div class="contato-item whatsapp">
+        <i class="bi bi-whatsapp icon"></i>
+        <div>
+          <div class="titulo">WhatsApp</div>
+          <a href="https://wa.me/5521976026980" target="_blank">+55 21 97602-6980</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coluna Direita: Imagem -->
+    <div class="col-md-6 text-center">
+      <img class="img-contato img-fluid rounded shadow" src="{{ url_for('static', filename='imagens/salgados-contato.jpg') }}" alt="Minha imagem de perfil">
+    </div>
+  </div>
+</div>
+{% endblock %}

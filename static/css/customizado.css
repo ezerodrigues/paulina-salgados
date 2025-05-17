@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.img-principal {
+  width: 100vw;
+  height: 92vh;
+  object-fit: cover;
+  display: block;
+}
+
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.contato-item .icon {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.contato-item.instagram .icon {
+  color: #e1306c;
+}
+
+.contato-item.whatsapp .icon {
+  color: #25d366;
+}
+
+.contato-item .titulo {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.contato-item a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #212529;
+}
+
+.contato-item a:hover {
+  text-decoration: underline;
+}
