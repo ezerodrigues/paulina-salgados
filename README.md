@@ -1,4 +1,4 @@
-# paulina-salgados
+# Paulina Salgados
 
 Sistema web minimalista para gestão de catálogo de salgados, desenvolvido com Flask 3, SQLAlchemy e interface HTML responsiva. Ideal para microempreendedores ou pequenos negócios do ramo alimentício que precisam controlar e divulgar seus produtos.
 
