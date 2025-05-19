@@ -11,6 +11,21 @@ html, body {
   display: block;
 }
 
+@media (max-width: 896px) {
+  .img-principal {
+    height: 100vh;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-principal {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+}
 
 .contato-item {
   display: flex;
