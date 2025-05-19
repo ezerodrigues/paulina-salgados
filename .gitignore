@@ -1,0 +1,34 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Banco de dados local
+instance/
+*.db
+*.sqlite3
+
+# Configurações locais
+.env
+*.env
+.DS_Store
+
+# Heroku/Python build artefacts
+*.egg-info/
+dist/
+build/
+
+# Arquivos temporários de sistema
+Thumbs.db
