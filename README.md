@@ -5,6 +5,7 @@
 ![Flask](https://img.shields.io/badge/Flask-3.x-red)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.x-orange)
 ![Status](https://img.shields.io/badge/Status-Funcional-success)
+[![Deploy na DigitalOcean](https://img.shields.io/badge/Deploy-DigitalOcean-blue?style=for-the-badge&logo=digitalocean)](https://paulina-app-hmgir.ondigitalocean.app/)
 
 ## 📋 Descrição do Projeto
 
